@@ -33,6 +33,9 @@ function Shortener() {
           value={input}
           onChange={(input) => setInput(input.target.value)}
         />
+        <button type="submit" name="submit" className="bg-slate-500">
+          Shorten it!
+        </button>
       </form>
       <h2>{gurl}</h2>
     </div>

@@ -1,10 +1,13 @@
 import "./App.css";
 import Shortener from "./components/Shortener";
+import Hero from "./containers/Hero";
+import Navbar from "./containers/Navbar";
 
 function App() {
   return (
-    <div className="App flex flex-col justify-center items-center bg-slate-600 h-screen">
-      <Shortener />
+    <div className="App h-screen">
+      <Navbar />
+      <Hero />
     </div>
   );
 }
