@@ -9,7 +9,7 @@ function Hero() {
           <strong>More than just shorter links</strong>
         </h1>
 
-        <h2 className="text-center 2xl:text-left 2xl:text-[2rem] 2xl:pr-[2rem] m-auto text-[#9c9ba1]">
+        <h2 className="text-center 2xl:text-left 2xl:text-[2rem] 2xl:pr-[2rem] m-[1rem] 2xl:m-0 text-[#9c9ba1]">
           Build your brand's recognition and get detailed insights on how your
           links are performing.
         </h2>
