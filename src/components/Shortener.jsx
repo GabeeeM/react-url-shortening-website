@@ -65,7 +65,7 @@ function Shortener() {
             </button>
           </form>
         </div>
-        <ul className="absolute translate-y-[17rem]">
+        <ul className="">
           {list.map((x) => (
             <li key={x.key} className="">
               <div className="flex flex-col 2xl:flex-row gap-[1rem] items-center bg-white rounded-md w-[95%] 2xl:w-[80rem] p-[2rem]">
