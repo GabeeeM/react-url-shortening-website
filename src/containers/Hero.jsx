@@ -14,7 +14,7 @@ function Hero() {
           links are performing.
         </h2>
 
-        <a href="">
+        <a href="#">
           <div className="bg-[#23d4ce] hover:bg-[#98e3e0] pt-[1rem] pb-[1rem] pr-[1.3rem] pl-[1.3rem] rounded-full w-[10rem] 2xl:w-[15rem] mt-[2rem] text-center 2xl:text-[2rem] text-white">
             Get Started
           </div>
