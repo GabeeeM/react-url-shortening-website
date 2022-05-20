@@ -67,7 +67,7 @@ function Shortener() {
         </div>
         <ul className="">
           {list.map((x) => (
-            <li key={x.key} className="">
+            <li key={x.key} className="mb-[1rem]">
               <div className="flex flex-col 2xl:flex-row gap-[1rem] items-center bg-white rounded-md w-[95%] 2xl:w-[80rem] p-[2rem]">
                 <p className="2xl:basis-7/12">{x.ogLink}</p>
                 <p className="w-full 2xl:basis-4/12 2xl:text-right text-[#23d4ce]">
