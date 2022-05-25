@@ -59,7 +59,7 @@ function Navbar() {
             </a>
             <a href="">
               <div className="bg-[#23d4ce] hover:bg-[#98e3e0] pt-[0.7rem] pb-[0.7rem] pr-[1.3rem] pl-[1.3rem] rounded-full">
-                Signup
+                Sign Up
               </div>
             </a>
           </div>
@@ -101,7 +101,7 @@ function Navbar() {
             </a>
             <a href="">
               <div className="bg-[#23d4ce] hover:bg-[#98e3e0] pt-[0.4rem] pb-[0.4rem] pr-[1rem] pl-[1rem] mt-[1rem] rounded-full text-white">
-                Signup
+                Sign Up
               </div>
             </a>
           </div>
