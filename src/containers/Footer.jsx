@@ -21,6 +21,7 @@ function Footer() {
           <li className="mb-[0.5rem] text-[#adaab1] text-center 2xl:text-left hover:text-[#45b0b0]">
             <a href="">Branded Links</a>
           </li>
+          {/* commit! */}
           <li className="mb-[0.5rem] text-[#adaab1] text-center 2xl:text-left hover:text-[#45b0b0]">
             <a href="">Analytics</a>
           </li>
