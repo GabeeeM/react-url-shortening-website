@@ -41,8 +41,8 @@ function Shortener() {
   };
 
   return (
-    <div className="flex justify-center mt-[3rem] translate-y-[5rem]">
-      <div className="flex flex-col justify-center items-center">
+    <div className="flex justify-center mt-[6rem] bg-[#f0f1f6]">
+      <div className="flex flex-col justify-center items-center -translate-y-[3rem]">
         <div
           className="w-[95%] 2xl:w-[80rem] bg-no-repeat bg-cover flex flex-col 2xl:flex-row justify-center p-[2rem] bg-[#3a3053] rounded-lg mb-[2rem]"
           style={style}

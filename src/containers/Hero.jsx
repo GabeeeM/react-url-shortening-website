@@ -3,7 +3,7 @@ import hero from "../images/illustration-working.svg";
 
 function Hero() {
   return (
-    <div className="flex flex-col-reverse xl:flex-row mt-[4rem] xl:ml-[5rem]">
+    <div className="flex flex-col-reverse xl:flex-row mt-[4rem] xl:ml-[5rem] mb-[2rem]">
       <div className="flex flex-col basis-1/2 mt-[5rem] xl:justify-start justify-center xl:items-start items-center">
         <h1 className="text-[3rem] text-center xl:text-left xl:text-[6.5rem] xl:pr-[2rem] leading-tight">
           <strong>More than just shorter links</strong>
