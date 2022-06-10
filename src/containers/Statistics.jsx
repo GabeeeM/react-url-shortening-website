@@ -7,7 +7,7 @@ function Statistics() {
   return (
     <div className="bg-[#f0f1f6]">
       <div className="pt-[12rem] flex flex-col justify-center items-center">
-        <div className="flex flex-col w-[31rem]">
+        <div className="flex flex-col w-[31rem] max-w-fit">
           <h1 className="text-[3rem] text-center">
             <strong>Advanced Statistics</strong>
           </h1>
@@ -18,7 +18,7 @@ function Statistics() {
         </div>
         <div className="flex flex-col 2xl:flex-row items-center mb-[7rem]">
           <div className="bg-white w-[25rem] pl-[3rem] pr-[3rem] pb-[3rem] flex flex-col items-center 2xl:items-start 2xl:-translate-y-[3rem]">
-            <div className="bg-[#3a3053] p-[1.5rem] w-[6rem] rounded-full -translate-y-[3rem]">
+            <div className="bg-[#3a3053] p-[1.5rem] w-[6rem] rounded-full -translate-y-[3rem] max-w-fit">
               <img src={brandRecog} alt="" srcset="" className="w-[10rem]" />
             </div>
             <h1 className="text-[1.5rem] mb-[1.5rem] text-center 2xl:text-left">

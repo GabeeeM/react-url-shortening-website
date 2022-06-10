@@ -75,7 +75,7 @@ function Navbar() {
           </div>
 
           <div
-            className="mt-[3rem] p-[1rem] mr-[1rem] ml-[1rem] text-center leading-[2.5rem] bg-[#3a3053] cursor-default rounded-xl"
+            className="mt-[3rem] p-[1rem] mr-[1rem] ml-[1rem] text-center leading-[2.5rem] bg-[#3a3053] cursor-default rounded-xl w-4/5 translate-x-[2rem]"
             style={burger}
           >
             <ul>
