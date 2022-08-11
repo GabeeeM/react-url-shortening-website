@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import hero from "../images/illustration-working.svg";
 
 function Hero() {
   return (
-    <div className="flex flex-col-reverse xl:flex-row mt-[4rem] xl:ml-[5rem] mb-[2rem]">
+    <div className="flex flex-col-reverse xl:flex-row mt-[4rem] xl:ml-[5rem]">
       <div className="flex flex-col basis-1/2 mt-[5rem] xl:justify-start justify-center xl:items-start items-center">
         <h1 className="text-[3rem] text-center xl:text-left xl:text-[6.5rem] xl:pr-[2rem] leading-tight">
           <strong>More than just shorter links</strong>
@@ -14,7 +15,7 @@ function Hero() {
           links are performing.
         </h2>
 
-        <a href="#">
+        <a href="">
           <div className="bg-[#23d4ce] hover:bg-[#98e3e0] pt-[1rem] pb-[1rem] pr-[1.3rem] pl-[1.3rem] rounded-full w-[10rem] xl:w-[15rem] mt-[2rem] text-center xl:text-[2rem] text-white">
             Get Started
           </div>

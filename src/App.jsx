@@ -8,7 +8,7 @@ import Statistics from "./containers/Statistics.jsx";
 
 function App() {
   return (
-    <div className="App h-screen">
+    <div className="App h-screen w-full">
       <Navbar />
       <Hero />
       <Shortener />
