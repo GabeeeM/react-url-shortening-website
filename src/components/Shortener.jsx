@@ -19,22 +19,22 @@ function Shortener() {
   };
 
   const fetchUrl = async () => {
+    console.log("trying");
+    let temp = `https://api.shrtco.de/v2/shorten?url=${input}`;
     try {
-      console.log("trying");
-      let temp = "https://api.shrtco.de/v2/shorten?url=" + input;
       let res = await axios(temp);
-
-      setList((x) =>
-        x.concat({
+      setList((prevList) => [
+        ...prevList,
+        {
           ogLink: input,
           shortLink: res.data.result.full_short_link,
-          key: Math.floor(Math.random() * 5000),
-        })
-      );
+          key: Math.random() * 5000,
+        },
+      ]);
     } catch (err) {
-    } finally {
+      // Handle the error if required
     }
-  };
+};
 
   const copyText = (text) => {
     navigator.clipboard.writeText(text);
